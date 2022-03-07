@@ -13,8 +13,6 @@ export default function RegistroMatricula() {
     const [fecha_solicitud_g, setfecha_solicitud_g] = useState("");
     const [fecha_fin_g, setfecha_fin_g] = useState("");
     const [precio_g, setprecio_g] = useState(0);
-    const [mensaje, setmensaje] = useState("");
-    const [display, setdisplay] = useState(false);
     const codigoMatricula=useSelector(getCodigoMatricula);
     const url="http://localhost:4000/newProductoGarantia";
 
